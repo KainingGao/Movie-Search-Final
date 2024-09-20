@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "663942bf626ae48ac79841c3"
+  },
+  "username": "Alice",
+  "password": "a123",
+  "uKey": -646361967,
+  "theme": "default",
+  "pfp": "https://i1.rgstatic.net/ii/profile.image/660631946547200-1534518338520_Q512/Abraham-Aldaco.jpg"
+},
+{
+  "_id": {
+    "$oid": "663942c9626ae48ac79841c5"
+  },
+  "username": "Bob",
+  "password": "b123",
+  "uKey": 1717009829,
+  "theme": "default",
+  "pfp": "https://i1.rgstatic.net/ii/profile.image/660631946547200-1534518338520_Q512/Abraham-Aldaco.jpg"
+},
+{
+  "_id": {
+    "$oid": "663942d6626ae48ac79841c7"
+  },
+  "username": "Cathy",
+  "password": "c123",
+  "uKey": -623066442,
+  "theme": "default",
+  "pfp": "https://i1.rgstatic.net/ii/profile.image/660631946547200-1534518338520_Q512/Abraham-Aldaco.jpg"
+},
+{
+  "_id": {
+    "$oid": "663942df626ae48ac79841c9"
+  },
+  "username": "Don",
+  "password": "d123",
+  "uKey": -791808271,
+  "theme": "default",
+  "pfp": "https://i1.rgstatic.net/ii/profile.image/660631946547200-1534518338520_Q512/Abraham-Aldaco.jpg"
+}]

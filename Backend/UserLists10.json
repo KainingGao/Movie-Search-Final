@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "663942bf626ae48ac79841c4"
+  },
+  "username": "Alice",
+  "uKey": -646361967,
+  "movies": [],
+  "planning": [
+    {
+      "imdbID": "tt0190210",
+      "rating": "2",
+      "rewatch": "4",
+      "notes": ""
+    },
+    {
+      "imdbID": "tt0261392",
+      "rating": "2",
+      "rewatch": "4",
+      "notes": ""
+    },
+    {
+      "imdbID": "tt1385462",
+      "rating": "2",
+      "rewatch": "4",
+      "notes": ""
+    },
+    {
+      "imdbID": "tt10851652",
+      "rating": "2",
+      "rewatch": "4",
+      "notes": ""
+    }
+  ],
+  "complete": [
+    {
+      "imdbID": "tt1156132",
+      "rating": "2",
+      "rewatch": "4",
+      "notes": ""
+    }
+  ],
+  "favorites": [
+    {
+      "imdbID": "tt16124480",
+      "rating": "2",
+      "rewatch": "4",
+      "notes": ""
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "663942c9626ae48ac79841c6"
+  },
+  "username": "Bob",
+  "uKey": 1717009829,
+  "movies": [],
+  "planning": [],
+  "complete": [
+    {
+      "imdbID": "tt0085750",
+      "rating": "2",
+      "rewatch": "4",
+      "notes": ""
+    }
+  ],
+  "favorites": []
+},
+{
+  "_id": {
+    "$oid": "663942d6626ae48ac79841c8"
+  },
+  "username": "Cathy",
+  "uKey": -623066442,
+  "movies": [],
+  "planning": [],
+  "complete": [],
+  "favorites": []
+},
+{
+  "_id": {
+    "$oid": "663942df626ae48ac79841ca"
+  },
+  "username": "Don",
+  "uKey": -791808271,
+  "movies": [],
+  "planning": [
+    {
+      "imdbID": "tt0120595",
+      "rating": "2",
+      "rewatch": "4",
+      "notes": ""
+    }
+  ],
+  "complete": [],
+  "favorites": [
+    {
+      "imdbID": "tt0145487",
+      "rating": "2",
+      "rewatch": "4",
+      "notes": ""
+    }
+  ]
+}]

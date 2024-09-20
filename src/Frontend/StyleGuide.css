@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=IBM%20Plex%20Sans:500|IBM%20Plex%20Sans:300");
+.site-theme-light {
+    --color-background: rgb(237,241,245);
+    --content-color: rgb(250,250,250);
+    --color-font: rgb(92,114,138);
+    --color-font-on-dark: rgb(159, 173, 189);
+    --color-header: rgb(43,45,66);
+    --color-footer: rgb(17,22,29);
+    
+    --color-primary: #0060df;
+    --color-secondary: #bcbcbc;
+    --color-accent: #fd6f53;
+}
+.site-theme-dark {
+    --color-primary: #17ed90;
+    --color-secondary: #bcbcbc;
+    --color-accent: #12cdea;
+    
+    --color-background: rgb(13, 27, 41);
+    --content-color: rgb(21,31,46);
+    --color-font: rgb(159, 173, 189);
+    --color-imporant-text: rgb(159,173,189);
+    --color-small-text: rgb(114,138,161);
+    --color-font-on-dark: rgb(159, 173, 189);
+    --color-header: rgb(21,34,50);
+    --color-footer: rgb(17,22,29);
+    
+    --accent: rgb(150,64,5);
+    --fade: rgb(70,28,6);
+}
+.site-theme-high-contrast {
+    --color-background: rgb(11, 22, 34);
+}
+/* html {
+    background-color: var(--color-background);
+} */
+.wrapper {
+    background-color: var(--color-background) !important;
+    padding-top: 64px;
+}
+.bg-body-tertiary {
+    background-color: var(--color-background) !important;
+}
+.content-zone {
+    background-color: var(--content-color) !important;
+    color: var(--color-font) !important
+}
+body {
+    background-color: var(--color-background) !important;
+}
+.header-color {
+    background-color: var(--color-header) !important;
+    color: var(--font-color-on-dark) !important;
+}
+.footer {
+    background-color: var(--color-footer) !important;
+    color: var(--color-font-on-dark) !important;
+    padding-bottom: 5rem !important
+}
+.text {
+    color: var(--color-font) !important
+}
+.card {
+    background-color: var(--content-color) !important;
+    color: var(--color-font) !important
+}
+/* Movie Page*/
+.title {
+    color: var(--color-imporant-text) !important
+}
+.subtext {
+    color: var(--color-small-text) !important
+}
+.subtext:hover {
+    color: var(--color-imporant-text) !important
+}
+.subtext:hover {
+    color: var(--color-imporant-text) !important
+}
+.button {
+    border-width: 2px;
+    border: grey;
+}
+.thing {
+    background-color: var(--color-secondary) !important;
+}
+.nav-bar-bump {
+    margin-top: 80px !important;
+}
+.footer-bump {
+    margin-bottom: 290px !important;
+}
+.attributions-boxes{
+    display: flex;
+    justify-content: center; /* Align horizontal */
+    align-items: center; /* Align vertical */
+}
+.empty-space {
+    margin-top: 400 !important; 
+}
+.navbar-nav .nav-link {
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
+    color: #fff; /* Changes text color on hover/focus */
+    background-color: rgb(13, 27, 41); /* Changes background color on hover/focus */
+    border-radius: 5px; /* Optional: adds rounded corners to the hover/focus effect */
+}
+
+.bottom {
+    min-height: 100%;
+}
+.bottom-nav {
+    width: 100%;
+    padding-top: 8px;
+    background-color: var(--fade);
+    text-align: center;
+    top: 0;
+}
+.link {
+    display: inline-table;
+    padding: 5px;
+    vertical-align: middle;
+    background-color: var(--accent);
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.link a {
+    display: table-cell;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #FAFAFA;
+    font-size: larger;
+    padding: 10px;
+}
+.link-gap {
+    display: inline-table;
+    padding: 5px;
+    vertical-align: middle;
+    color: #FAFAFA;
+    font-size: large;
+    margin-bottom: 8px;
+}
+
+
+.author-card {
+    background-color: var(--content-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .author-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .author-img {
+    width: 150px;
+    /* Set a fixed width */
+    height: auto;
+    /* Set height to auto to maintain aspect ratio */
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    /* Ensures the image covers the area, useful if you explicitly set both width and height */
+    display: block;
+    /* To remove any default inline margins */
+    margin-left: auto;
+    /* Center the image horizontally */
+    margin-right: auto;
+    /* Center the image horizontally */
+  }
